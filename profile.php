@@ -4,7 +4,17 @@
 <style>
 body{
     color:white;
+    
+  
+
 }
+form{
+  min-height: auto;
+   align-items: center;
+   justify-content: center;
+   margin: auto;
+}
+
   </style>
 <form action="<?php $_SERVER['PHP_SELF']; ?>" method="post" enctype="multipart/form-data">
   <h3>Select image to upload:</h3>

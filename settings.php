@@ -3,6 +3,13 @@
 body{
     color:white;
 }
+form{
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
+   margin: auto;
+}
   </style>
 <?php
 // Database connection configuration (You need to set your own values here)

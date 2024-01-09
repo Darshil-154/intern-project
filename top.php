@@ -189,6 +189,7 @@
       <link href="./index.css" rel="stylesheet" />
 
       <div class="home-container" style=" background-image:url('bg.jpg');">
+      <div class="home-header">
       <nav class="navbar w-100 navbar-expand-lg bg-body-tertiary bg-light border-bottom border-body sticky-top" >
 
 <div class="container-fluid" id="classpresent">
@@ -196,7 +197,7 @@
 
     <button class="btn navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation" style="margin-left:-8px;">
         <a class="navbar-brand" href="#">
-            <img src="logo.jpg" alt="Logo" width="28" height="28" class="d-inline-block align-text-top rounded-circle">
+            <img src="logo.jpg" alt="Logo" width="30" height="30" class="d-inline-block align-text-top rounded-circle">
             <?php
             $currentFile = $_SERVER['PHP_SELF'];
             $filename = basename($currentFile, '.php');
@@ -207,7 +208,7 @@
     </button>
     <div class="logo">
         <a class="navbar-brand" href="#">
-            <img src="logo.jpg" alt="Logo" width="28" height="28" class="d-inline-block align-text-top rounded-circle">
+            <img src="logo.jpg" alt="Logo" width="30" height="30" class="d-inline-block align-text-top rounded-circle">
             <?php
             $currentFile = $_SERVER['PHP_SELF'];
             $filename = basename($currentFile, '.php');
@@ -331,4 +332,4 @@
 
 </div>
 </nav>
-       
+      </div>

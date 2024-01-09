@@ -2,12 +2,13 @@
 <?php
   require_once 'db_connect.php';
 // sql to create table
-$sql = "CREATE TABLE interier (
+$sql = "CREATE TABLE user (
 id INT(6) UNSIGNED AUTO_INCREMENT PRIMARY KEY,
-fname VARCHAR(30) NOT NULL,
-lname VARCHAR(30),
+name VARCHAR(30) NOT NULL,
+username VARCHAR(30),
 email VARCHAR(50) NOT NULL,
-message VARCHAR(500),
+password VARCHAR(50),
+image VARCHAR(400),
 reg_date TIMESTAMP DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP
 )";
 

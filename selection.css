@@ -1,0 +1,90 @@
+
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+    }
+
+    header {
+      background-color: #333;
+      color: white;
+      text-align: center;
+      padding: 10px;
+    }
+
+    section {
+      padding: 20px;
+    }
+
+    .car-selection {
+      display: flex;
+      justify-content: space-between;
+    }
+
+    .container
+    {
+      align-items: center !important;
+      justify-content: center !important;
+      display: flex !important;
+      height: 100%;
+    }
+    .frame img
+    {
+      width: 100%;
+    }
+
+    .frame
+    {
+      border-radius: 2px;
+      background-color: #fefefe;
+      width: 700px;
+      padding: 30px;
+      box-shadow: 0px 0px 5px 0px #aaa;
+      position: relative;
+    }
+
+    .overlay
+    {
+      box-shadow: inset 0px 0px 5px 0px #000;
+      position: absolute;
+      top: 30px;
+      left: 30px;
+      right: 30px;
+      bottom: 30px;
+    }
+
+    .frame
+    {
+      transition: all 0.5s ease 0s;
+    }
+  
+    .location-input {
+      width: 45%;
+      padding: 10px;
+      margin-bottom: 10px;
+    }
+
+    .time-input {
+      width: 45%;
+      padding: 10px;
+      margin-bottom: 10px;
+    }
+
+    #payment-form {
+      display: none;
+    }
+
+    #final-cost {
+      display: none;
+      text-align: center;
+      font-size: 18px;
+      margin-top: 20px;
+    }
+
+    button {
+      padding: 10px;
+      background-color: #4caf50;
+      color: white;
+      border: none;
+      cursor: pointer;
+    }

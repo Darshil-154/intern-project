@@ -80,7 +80,7 @@
         $email1 = $_SESSION['email'];
 
         
-        $sql = "UPDATE user SET car='$car',pickuplocation='$pickup',droplocation='$drop',pickuptime='$picktime',droptime='$droptimedroptime'  WHERE email = '$email1'"; 
+        $sql = "UPDATE user SET car='$car',pickuplocation='$pickup',droplocation='$drop',pickuptime='$picktime',droptime='$droptime'  WHERE email = '$email1'"; 
     }
         if (mysqli_query($conn, $sql)) {
           echo '<script>window.location.href = "payment.php";</script>';

@@ -19,6 +19,7 @@
   <section id="final-cost">
     <h2>Final Cost</h2>
     <?php 
+      require_once 'db_connect.php';
  if (isset($_SESSION['email'])) {
   $email1 = $_SESSION['email'];
 
@@ -27,7 +28,11 @@
   $result = mysqli_query($conn, $sql);
   if (mysqli_num_rows($result) > 0) {
       while ($row = mysqli_fetch_assoc($result)) {
-          echo "pickup-location :" + $row['pickuplocation'] ;
+          echo "Pickup-location : <span>";
+          echo $row['pickuplocation'] ;
+          echo "<br>Drop-location : <span>";
+          echo $row['droplocation'];
+        
       }
   }
   mysqli_close($conn);

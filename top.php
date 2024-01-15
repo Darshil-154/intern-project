@@ -2,12 +2,7 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <title> <?php
-        $currentFile = $_SERVER['PHP_SELF'];
-        $filename = basename($currentFile, '.php');
-        $capital = ucfirst($filename);
-        echo $capital;
-        ?> page</title>
+    <title>ICONICAGENCIE</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta charset="utf-8">
     <meta property="twitter:card" content="summary_large_image">

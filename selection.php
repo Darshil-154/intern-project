@@ -24,9 +24,9 @@
       <div class="car-selection" >
         <select id="car-type" name="cars" onchange="changeImage()">
         <option id="defult" value="defult" disabled selected>Choose car</option>
-          <option id="compact" value="compact">compact</option>
+          <option id="compact" value="compact">Compact</option>
           <option id="suv" value="suv">SUV</option>
-          <option id="super" value="super">Super</option>
+          <option id="super" value="super">Sedan</option>
         </select>
         <!-- <div id="car-image"></div> -->
         <input type="text" name="pickup-location" class="form-control" id="pickup-location" placeholder="Pickup Location" required>

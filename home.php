@@ -27,7 +27,7 @@
                 </span>
               </span>
               <div class="home-btn-group">
-                <button class="buttonFilled">Book Now</button>
+              <a class="btn btn-primary ms-2" href="selection.php" role="button">Book now</a>
                 <button class="buttonFlat">Learn More&nbsp;→</button>
               </div>
             </div>

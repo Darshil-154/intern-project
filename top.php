@@ -198,23 +198,13 @@
     <button class="btn navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation" style="margin-left:-8px;">
         <a class="navbar-brand" href="#">
             <img src="logo.jpg" alt="Logo" width="30" height="30" class="d-inline-block align-text-top rounded-circle">
-            <?php
-            $currentFile = $_SERVER['PHP_SELF'];
-            $filename = basename($currentFile, '.php');
-            $capital = ucfirst($filename);
-            echo $capital;
-            ?>
+            ICONICAGENCIE
         </a>
     </button>
     <div class="logo">
         <a class="navbar-brand" href="#">
             <img src="logo.jpg" alt="Logo" width="30" height="30" class="d-inline-block align-text-top rounded-circle">
-            <?php
-            $currentFile = $_SERVER['PHP_SELF'];
-            $filename = basename($currentFile, '.php');
-            $capital = ucfirst($filename);
-            echo $capital;
-            ?>
+            ICONICAGENCIE
         </a>
     </div>
 
@@ -228,29 +218,9 @@
                 <a class="nav-link" href="about.php">About</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="blogs.php">Blogs</a>
+                <a class="nav-link" href="contact.php">Contact us</a>
             </li>
-            <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                    Downloads
-                </a>
-                <ul class="dropdown-menu" id="dm">
-                    <li><a class="dropdown-item" href="images.php">Images</a></li>
-                    <li><a class="dropdown-item" href="files.php">Files</a></li>
-                    <li>
-                        <hr class="dropdown-divider">
-                    </li>
-                    <li><a class="dropdown-item" href="upload.php">Upload</a></li>
-                </ul>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="#">Contect us</a>
-            </li>
-        </ul>
-
-        
-
-        
+        </ul>    
     </div>
     <div class="d-flex">
                   

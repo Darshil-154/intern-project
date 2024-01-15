@@ -70,12 +70,8 @@
       margin-bottom: 10px;
     }
 
-    #payment-form {
-      display: none;
-    }
-
     #final-cost {
-      display: none;
+      
       text-align: center;
       font-size: 18px;
       margin-top: 20px;

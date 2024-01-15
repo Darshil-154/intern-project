@@ -9,6 +9,11 @@ username VARCHAR(30),
 email VARCHAR(50) NOT NULL,
 password VARCHAR(50),
 image VARCHAR(400),
+car VARCHAR(50),
+pickuplocation VARCHAR(400),
+droplocation VARCHAR(400),
+pickuptime VARCHAR(400),
+droptime VARCHAR(400),
 reg_date TIMESTAMP DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP
 )";
 

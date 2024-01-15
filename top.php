@@ -252,6 +252,12 @@
 
         
     </div>
+    <div class="d-flex">
+                  
+               <a class="btn btn-primary ms-2" href="selection.php" role="button" style="margin-right: 45px;">Book now</a>
+        
+    </div>
+    
     <div class="fixed-icon">
         <div class="dropdown ml-2">
             <div class="btn-user-avatar" data-toggle="dropdown" aria-expanded="false" aria-controls="user_menu">
